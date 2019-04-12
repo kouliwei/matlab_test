@@ -1,0 +1,5 @@
+clc
+clear;
+q_max = 10;
+q_min = -10;
+H = (q_max - q_min)^2/(q_max - q(:)*(q_min))
